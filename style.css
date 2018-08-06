@@ -14,6 +14,8 @@ main {
   justify-items: center;
   justify-content: center;
   align-items: stretch;
+  height: 1600px;
+  align-content: center;
 }
 
 h2 {
@@ -37,10 +39,12 @@ img {
 }
 
 .a {
+  align-self: end;
 
 }
 
 .c {
+  justify-self: start;
 
 }
 
