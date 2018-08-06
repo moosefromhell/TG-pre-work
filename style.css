@@ -74,6 +74,9 @@ a.home {
   color: #4D00FF;
 }
 
+.space .sample .text {
+  font-family: 'Space Mono', monospace;
+}
 
 /* Banner Section */
 
