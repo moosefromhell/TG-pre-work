@@ -33,6 +33,7 @@ a {
 p {
   margin: 16px 0;
   font-family: Helvetica;
+
 }
 
 strong {
@@ -90,6 +91,7 @@ a.home {
   padding: 10px;
   color: #ffffff;
   font-weight: bold;
+  line-height: 1.4;
 }
 
 /* Editorial Sections */
