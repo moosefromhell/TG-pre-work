@@ -111,6 +111,14 @@ a.home {
   padding: 20px 50px;
 }
 
+.garamond .sample .text {
+  font-family: "Garamond", serif;
+}
+
+.helvetica .sample .text {
+  font-family: "Helvetica", sans-serif;
+}
+
 .font-card .creator {
   font-size: 20px;
   line-height: 1.25;
