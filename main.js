@@ -1,9 +1,6 @@
-let newYearsResolutions = ['Get a tech job', 'Learn a new language', 'Kick John'];
-newYearsResolutions.push('Lose weight', 'move somewhere nicer');
-newYearsResolutions.pop()
-
-	console.log(newYearsResolutions)
-let listItem = (newYearsResolutions[1])
-	console.log(newYearsResolutions[2])
-	console.log(newYearsResolutions[3])
-console.log(newYearsResolutions.length);
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+//let groceryList =
+groceryList.shift();
+groceryList.unshift('popcorn');
+console.log(groceryList.slice(0, 3, 4, 5, 6));
+console.log(groceryList);
