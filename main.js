@@ -1,4 +1,3 @@
-const volumeOfSphere = diameter =>
-   (1/6) * Math.PI * diameter * diameter * diameter;
+let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
 
-console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
+console.log(bucketList);
