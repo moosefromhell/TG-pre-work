@@ -3,3 +3,4 @@ let newYearsResolutions = ['Get a tech job', 'Learn a new language', 'Kick John'
 let listItem = (newYearsResolutions[1])
 	console.log(newYearsResolutions[2])
 	console.log(newYearsResolutions[3])
+console.log(newYearsResolutions.length);
