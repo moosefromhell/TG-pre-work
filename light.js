@@ -1,6 +1,12 @@
 const visibleLightWaves = () => {
-  let lightWaves = 'Moonlight'
-  console.log(lightWaves);
+  let lightWaves = 'Moonlight';
+  let region = 'The Arctic';
+
+  if (region === 'The Arctic') {
+    let lightWaves = 'Northern Lights';
+    console.log(lightWaves);
+  }
+  console.log(region);
 };
-visibleLightWaves()
-console.log(lightWaves)
+
+visibleLightWaves();
