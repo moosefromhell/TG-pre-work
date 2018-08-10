@@ -1,13 +1,12 @@
-let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+let randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
-// Create the secretMessage array below
+// Call .filter() on randomNumbers below
+let smallNumbers = randomNumbers.filter(function(number)  {
+  return number.length < 250;
+})
 
-let secretMessage = animals.map(animal => animal.charAt(0));
+let favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 
-console.log(secretMessage.join(''));
+let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
 
-let bigNumbers = [100, 200, 300, 400, 500];
-
-// Create the smallNumbers array below
-
-let smallNumbers = bigNumbers.map(num => num/100);
+// Refactor the code above using arrow function syntax
