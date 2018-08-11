@@ -1,6 +1,6 @@
 let person = {
   name: 'Moose',
-  age: 40
+  age: 23
 };
-console.log(person.name)
-console.log(person.age)
+console.log(person['name'])
+console.log(person['age'])
