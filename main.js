@@ -2,9 +2,12 @@ let person = {
   name: 'Moose',
   age: 23,
   weekendAlarm: 'No alarms needed',
-  weekAlarm: 'Alarm set to 7AM'
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {
+    return 'Hello, there!'
+  }
 };
-
+console.log(person.sayHello())
 person.hobbies = ['Drumming', 'Cooking'];
 person.hobbies = ['Drumming'];
 console.log(person.hobbies);
