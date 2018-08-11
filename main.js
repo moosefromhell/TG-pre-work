@@ -10,6 +10,10 @@ let person = {
   return 'Goodbye!';
 }
 };
+let friend = {
+  name: 'John'
+}
+friend.sayHello = person.sayHello;
 console.log(person.sayHello())
 person.hobbies = ['Drumming', 'Cooking'];
 person.hobbies = ['Drumming'];
@@ -29,3 +33,4 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 }
 
 console.log(person[alarm]);
+console.log(friend.sayHello())
